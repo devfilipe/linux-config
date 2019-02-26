@@ -4,7 +4,7 @@ linux-config
 Configure your development environment based on vim, tmux and zsh.
 
 Have it
-------
+-------
 
 ```bash
 git clone https:/github.com/devfilipe/linux-config.git
@@ -13,7 +13,7 @@ git clone https:/github.com/devfilipe/linux-config.git
 Backup your current files. Replace those you want.
 
 Vundle & Vim
-------------------
+------------
 
 * Download Vundle
 
@@ -36,7 +36,18 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 
 Prerequisites
-------------------
+-------------
 
 * Vim
 * Ctags / Exuberant Ctags
+
+Tmux
+----
+
+* Download TPM
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+Follow instructions @ https://github.com/tmux-plugins/tpm
