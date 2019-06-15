@@ -164,6 +164,8 @@ Plugin 'tmhedberg/simpylfold'
 " Plugin 'drmikehenry/vim-fontsize'
 Plugin 'drmikehenry/vim-fontsize'
 
+"Plugin 'elixir-editors/vim-elixir'
+Plugin 'elixir-editors/vim-elixir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
