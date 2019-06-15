@@ -1,7 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+export TERM="xterm-256color"
+
+#Path to your oh-my-zsh installation.
   export ZSH="/home/filipe/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -16,6 +18,7 @@ zsh_gcc_version(){
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_CUSTOM_GCC_VERSION="zsh_gcc_version"
 POWERLEVEL9K_THEME="nerdfont-complete"
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
 #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(custom_gcc_version ram)
 
