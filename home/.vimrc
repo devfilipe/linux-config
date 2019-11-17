@@ -167,6 +167,9 @@ Plugin 'drmikehenry/vim-fontsize'
 "Plugin 'elixir-editors/vim-elixir'
 Plugin 'elixir-editors/vim-elixir'
 
+"Plugin 'jimenezrick/vimerl'
+Plugin 'jimenezrick/vimerl'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

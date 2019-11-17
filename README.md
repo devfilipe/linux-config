@@ -39,6 +39,7 @@ Prerequisites
 -------------
 
 * Vim
+* Cmake
 * Ctags / Exuberant Ctags
 
 Tmux
