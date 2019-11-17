@@ -52,3 +52,11 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 Follow instructions @ https://github.com/tmux-plugins/tpm
+
+oh-my-zsh
+---------
+
+Instalar oh-my-zsh:
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
