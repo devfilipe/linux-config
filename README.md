@@ -56,7 +56,23 @@ Follow instructions @ https://github.com/tmux-plugins/tpm
 oh-my-zsh
 ---------
 
-Instalar oh-my-zsh:
+Install oh-my-zsh:
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
+Download PowerLevel10k theme:
+```sh
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+Edit `.zshrc`:
+```sh
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+Exec `zsh` to configure powerlevel10k theme:
+```sh
+exec zsh
+```
+
